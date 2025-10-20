@@ -55,3 +55,9 @@ go run main.go
 
 # Сборка
 go build -o bin/app main.go
+
+## Планируемая доработка
+1)Добавление PostgresQL
+2)Обложить mtx pkg функции для корректного многопоточного вызова handlerfunc()
+3)Контейнеризировать docker
+4)Переписать роутер с gotilla на chi
